@@ -1,0 +1,124 @@
+body {
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    padding-right: 15px;
+    opacity: .75;
+}
+a:hover {
+    text-decoration: underline;
+}
+div {
+    border:0px solid red;
+}
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+}
+.Aligner-item {
+    max-width: 35rem;
+    text-align: center;
+    width: 60%;
+    height: 30rem;
+}
+.google-logo {
+    padding-bottom: 2rem;
+}
+header {
+    padding: 15px;
+}
+form {
+    text-align: center;
+}
+.search-button {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color:#f8f9fa;
+    border: 0;
+    height: 40px;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+}
+.search-button:focus {
+    outline: none;
+}
+.search-button:hover {
+    box-shadow: 1px 1px 5px gray;
+}
+.search-bar {
+    width: 98%;
+    border-color: #aaaaaa;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    opacity: .5;
+    height: 35px;
+    padding-left: 30px;
+    background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png) no-repeat left;
+    background-size: 29px;
+    
+    
+}
+.search-bar:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+.search-bar:focus {
+    outline: none;
+}
+.french {
+    font-size: 13px;
+    padding-top: 30px;
+}
+.foot {
+   display: flex;
+   color: #70757a;
+   font-size: 15px;
+   align-items: center;
+   background-color: #ececec;
+   padding-left: 20px;
+   border: solid 1px rgb(201, 201, 201);
+
+}
+.foot2 {
+    display: flex;
+    color: #70757a;
+    font-size: 15px;
+    align-items: center;
+    background-color: #ececec;
+    padding-left: 20px;
+    }
+.link {
+        color: blue;
+    }
+.footer-link {
+    color: #70757a;
+    font-size: 15px;
+}
+.left {
+    float: left;
+
+}
+.right {
+    float: right;
+
+}
+.menu-button {
+    max-width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+.avatar {
+    max-width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
